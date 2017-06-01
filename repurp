@@ -3,7 +3,7 @@ echo -e "Please enter a disease name: "
 read name
 echo "Searching for $name..."
 cd ~
-cd edirect
+cd ./src/edirect
 esearch -db protein -query "$name AND human [ORGN]" | efilter -source swissprot | efetch -format gpc | xtract -insd INSDSeq_locus > proteinfile.out
 esearch -db gene -query "$name AND human [ORGN]" | efetch -format xml | xtract -pattern Gene-commentary_properties -element Gene-commentary_text > genefile.out
 input="/home/dtlehrer/edirect/genefile.out"
