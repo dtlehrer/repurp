@@ -16,9 +16,8 @@ public class TTDRunner {
       }
     }
     Variables.originalDisease = s;
-    Variables.fullQuery = false;
     File file = new File("/net/home/dtlehrer/Thesis/TTDdata7.csv");
-    File proteinsfile = new File("/net/home/dtlehrer/edirect/proteinfile.out");
+    File proteinsfile = new File("../../output/proteins/"+ Variables.originalDisease + "_proteinfile.out");
     File symptomsfile = new File("/net/home/dtlehrer/Thesis/DiseaseSimilarities.csv");
     Scanner scanf = new Scanner(file);
     Scanner scanf2 = new Scanner(proteinsfile);
