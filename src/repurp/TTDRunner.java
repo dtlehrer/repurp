@@ -16,13 +16,13 @@ public class TTDRunner {
       }
     }
     Variables.originalDisease = s;
-    File file = new File("/net/home/dtlehrer/Thesis/TTDdata7.csv");
+    File file = new File("../../input/TTDdata7.csv");
     File proteinsfile = new File("../../output/proteins/"+ Variables.originalDisease + "_proteinfile.out");
-    File symptomsfile = new File("/net/home/dtlehrer/Thesis/DiseaseSimilarities.csv");
+    File symptomsfile = new File("../../input/DiseaseSimilarities.csv");
     Scanner scanf = new Scanner(file);
     Scanner scanf2 = new Scanner(proteinsfile);
     Scanner scanf3 = new Scanner(symptomsfile);
-    File weightfile = new File("/net/home/dtlehrer/Desktop/"+Variables.originalDisease+".out");
+    File weightfile = new File("../../output/drugWeights/"+Variables.originalDisease+".out");
     PrintWriter weightOut = new PrintWriter(weightfile);
     Repurp rep = new Repurp(scanf, scanf2, scanf3, weightOut);
     rep.run();
