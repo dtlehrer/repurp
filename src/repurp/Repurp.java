@@ -2,8 +2,6 @@ package repurp;
 
 import java.io.*;
 import java.util.*;
-import org.apache.commons.lang3.*;
-
 import repurp.org.apache.commons.exec.CommandLine;
 import repurp.org.apache.commons.exec.DefaultExecutor;
 
@@ -90,7 +88,7 @@ public class Repurp {
     executor.setExitValue(1);
     executor.setWorkingDirectory(new File("/net/home/dtlehrer/edirect"));
     try{
-      int exitValue = executor.execute(commandLine);
+      executor.execute(commandLine);
     }
     catch (Exception e){
     }
@@ -106,7 +104,7 @@ public class Repurp {
     executor.setExitValue(1);
     executor.setWorkingDirectory(new File("/net/home/dtlehrer/edirect"));
     try{
-      int exitValue = executor.execute(commandLine);
+      executor.execute(commandLine);
     }
     catch (Exception e){
     }
@@ -125,7 +123,7 @@ public class Repurp {
     executor.setExitValue(1);
     executor.setWorkingDirectory(new File("/net/home/dtlehrer/edirect"));
     try{
-      int exitValue = executor.execute(commandLine);
+      executor.execute(commandLine);
     }
     catch (Exception e){
     }
@@ -173,7 +171,7 @@ public class Repurp {
     executor.setExitValue(1);
     executor.setWorkingDirectory(new File("/net/home/dtlehrer/edirect"));
     try{
-      int exitValue = executor.execute(commandLine);
+      executor.execute(commandLine);
     }
     catch (Exception e){
     }

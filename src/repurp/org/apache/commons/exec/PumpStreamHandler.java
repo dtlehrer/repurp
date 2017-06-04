@@ -22,8 +22,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PipedOutputStream;
-import java.util.concurrent.FutureTask;
-
 import repurp.org.apache.commons.exec.util.DebugUtils;
 
 /**
