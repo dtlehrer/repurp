@@ -1,0 +1,263 @@
+\begin{thebibliography}{10}
+
+\bibitem{andronis}
+Christos Andronis, Anuj Sharma, Vassilis Virvilis, Spyros Deftereos, and Aris
+  Persidis.
+\newblock Literature mining, ontologies and information visualization for drug
+  repurposing.
+\newblock {\em Briefings in bioinformatics}, 12(4):357--368, 2011.
+
+\bibitem{cbra}
+California Biomedical~Research Association.
+\newblock New drug development process [fact sheet].
+
+\bibitem{atias}
+Nir Atias and Roded Sharan.
+\newblock An algorithmic framework for predicting side effects of drugs.
+\newblock {\em Journal of Computational Biology}, 18(3):207--218, 2011.
+
+\bibitem{begam}
+B~Firdaus Begam and J~Satheesh Kumar.
+\newblock A study on cheminformatics and its applications on modern drug
+  discovery.
+\newblock {\em Procedia Engineering}, 38:1264--1275, 2012.
+
+\bibitem{boguski}
+Mark~S Boguski, Kenneth~D Mandl, and Vikas~P Sukhatme.
+\newblock Repurposing with a difference.
+\newblock {\em Science}, 324(5933):1394--1395, 2009.
+
+\bibitem{brown}
+Frank~K Brown.
+\newblock Chemoinformatics: what is it and how does it impact drug discovery.
+\newblock {\em Annual reports in medicinal chemistry}, 33:375--384, 1998.
+
+\bibitem{youtube}
+Atul Butte.
+\newblock Driving public health: A trillion points of data, 2016.
+
+\bibitem{ttd02}
+X.~Chen, Z.~L. Ji, and Y.~Z. Chen.
+\newblock Ttd: Therapeutic target database.
+\newblock {\em Nucleic Acids Research}, 30(1):412--415, 2002.
+
+\bibitem{mesh01}
+Margaret~H. Coletti and Howard~L. Bleich.
+\newblock Medical subject headings used to search the biomedical literature.
+\newblock {\em Journal of the American Medical Informatics Association :
+  JAMIA}, 8(4):317--323, 2001.
+
+\bibitem{cook}
+Charles~E Cook, Mary~Todd Bergman, Robert~D Finn, Guy Cochrane, Ewan Birney,
+  and Rolf Apweiler.
+\newblock The european bioinformatics institute in 2016: data growth and
+  integration.
+\newblock {\em Nucleic acids research}, 44(D1):D20--D26, 2016.
+
+\bibitem{dud}
+Joel~T Dudley, Eric Schadt, Marina Sirota, Atul~J Butte, and Euan Ashley.
+\newblock Drug discovery in a multidimensional world: systems, patterns, and
+  networks.
+\newblock {\em Journal of cardiovascular translational research},
+  3(5):438--447, 2010.
+
+\bibitem{elshi}
+Hisham El-Shishiny, Taysir~H Soliman, and Mohamed El-Asmar.
+\newblock Mining drug targets based on microarray experiments.
+\newblock In {\em Computers and Communications, 2008. ISCC 2008. IEEE Symposium
+  on}, pages 175--181. IEEE.
+
+\bibitem{eutilities}
+National~Center for Biotechnology~Information.
+\newblock Entrez programming utilities help, 2013.
+
+\bibitem{edirect14}
+National~Center for Biotechnology~Information.
+\newblock Ncbi releases entrez direct, the entrez utilities on the unix command
+  line, 2014.
+
+\bibitem{gall}
+Mark~A Gallop, Ronald~W Barrett, William~J Dower, Stephen~PA Fodor, and Eric~M
+  Gordon.
+\newblock Applications of combinatorial technologies to drug discovery. 1.
+  background and peptide combinatorial libraries.
+\newblock {\em Journal of medicinal chemistry}, 37(9):1233--1251, 1994.
+
+\bibitem{guru}
+Harsha Gurulingappa, Luca Toldo, Abdul~Mateen Rajput, Jan~A Kors, Adel Taweel,
+  and Yorki Tayrouz.
+\newblock Automatic detection of adverse events to predict drug label changes
+  using text and data mining techniques.
+\newblock {\em Pharmacoepidemiology and drug safety}, 22(11):1189--1194, 2013.
+
+\bibitem{hecht}
+Peter Hecht.
+\newblock High-throughput screening: beating the odds with informatics-driven
+  chemistry.
+\newblock {\em Curr. Drug Discov}, pages 21--24, 2002.
+
+\bibitem{hughes}
+James~P Hughes, Stephen Rees, S~Barrett Kalindjian, and Karen~L Philpott.
+\newblock Principles of early drug discovery.
+\newblock {\em British journal of pharmacology}, 162(6):1239--1249, 2011.
+
+\bibitem{kaitin}
+Kenneth~I Kaitin.
+\newblock Deconstructing the drug development process: the new face of
+  innovation.
+\newblock {\em Clinical pharmacology and therapeutics}, 87(3):356, 2010.
+
+\bibitem{edirect17}
+Jonathan Kans.
+\newblock Entrez direct: E-utilities on the unix command line, 2017.
+
+\bibitem{keum}
+Jongsoo Keum, Sunyong Yoo, Doheon Lee, and Hojung Nam.
+\newblock Prediction of compound-target interactions of natural products using
+  large-scale drug and protein information.
+\newblock {\em BMC bioinformatics}, 17(6):219, 2016.
+
+\bibitem{drugbank14}
+Vivian Law, Craig Knox, Yannick Djoumbou, Tim Jewison, An~Chi Guo, Yifeng Liu,
+  Adam Maciejewski, David Arndt, Michael Wilson, Vanessa Neveu, et~al.
+\newblock Drugbank 4.0: shedding new light on drug metabolism.
+\newblock {\em Nucleic acids research}, 42(D1):D1091--D1097, 2014.
+
+\bibitem{ng}
+Rick Ng.
+\newblock {\em Appendix 1: History of Drug Discovery and Development}, pages
+  391--397.
+\newblock John Wiley and Sons, 2008.
+
+\bibitem{nih}
+National~Institutes of~Health.
+\newblock What is pharmacogenomics?, 2017.
+
+\bibitem{stan}
+Stanford~School of~Medicine.
+\newblock Compound libraries available for high-throughput screening (hts) in
+  the stanford htbc, 2017.
+
+\bibitem{mesh15}
+U.S. National~Library of~Medicine.
+\newblock Medical subject headings (mesh), 2015.
+
+\bibitem{eutils}
+U.S. National~Library of~Medicine.
+\newblock The insider's guide to accessing nlm data, 2016.
+
+\bibitem{pubmed}
+U.S. National~Library of~Medicine.
+\newblock Pubmed: Medline retrieval on the world wide web, 2016.
+
+\bibitem{pubmedstats}
+U.S. National~Library of~Medicine.
+\newblock Statistical reports on medline®/pubmed® baseline data, 2017.
+
+\bibitem{oxford}
+Oxford~University Press.
+\newblock Ncbi protein database, 2014.
+
+\bibitem{ttd14}
+Chu Qin, Cheng Zhang, Feng Zhu, Feng Xu, Shang~Ying Chen, Peng Zhang, Ying~Hong
+  Li, Sheng~Yong Yang, Yu~Quan Wei, Lin Tao, et~al.
+\newblock Therapeutic target database update 2014: a resource for targeted
+  therapeutics.
+\newblock {\em Nucleic acids research}, 42(D1):D1118--D1123, 2014.
+
+\bibitem{uniprot}
+Universal~Protein Resource.
+\newblock What is uniprot's human proteome?, 2015.
+
+\bibitem{tfidf}
+G.~Salton, A.~Wong, and C.~S. Yang.
+\newblock A vector space model for automatic indexing.
+\newblock {\em Commun. ACM}, 18(11):613--620, November 1975.
+
+\bibitem{shell}
+W.~E. Shotts.
+\newblock What is "the shell"?, 2017.
+
+\bibitem{sliwo}
+Gregory Sliwoski, Sandeepkumar Kothiwale, Jens Meiler, and Edward~W Lowe.
+\newblock Computational methods in drug discovery.
+\newblock {\em Pharmacological reviews}, 66(1):334--395, 2014.
+
+\bibitem{surend}
+A~Surendiran, SC~Pradhan, and C~Adithan.
+\newblock Role of pharmacogenomics in drug discovery and development.
+\newblock {\em Indian journal of pharmacology}, 40(4):137, 2008.
+
+\bibitem{raredis}
+David~C Swinney and Shuangluo Xia.
+\newblock The discovery of medicines for rare diseases.
+\newblock {\em Future medicinal chemistry}, 6(9):987--1002, 2014.
+
+\bibitem{RN54}
+David~L. Wheeler, Tanya Barrett, Dennis~A. Benson, Stephen~H. Bryant, Kathi
+  Canese, Vyacheslav Chetvernin, Deanna~M. Church, Michael DiCuccio, Ron Edgar,
+  Scott Federhen, Lewis~Y. Geer, Yuri Kapustin, Oleg Khovayko, David Landsman,
+  David~J. Lipman, Thomas~L. Madden, Donna~R. Maglott, James Ostell, Vadim
+  Miller, Kim~D. Pruitt, Gregory~D. Schuler, Edwin Sequeira, Steven~T. Sherry,
+  Karl Sirotkin, Alexandre Souvorov, Grigory Starchenko, Roman~L. Tatusov,
+  Tatiana~A. Tatusova, Lukas Wagner, and Eugene Yaschenko.
+\newblock Database resources of the national center for biotechnology
+  information.
+\newblock {\em Nucleic Acids Research}, 35(1):D5--D12, 2007.
+
+\bibitem{drugbank08}
+David~S Wishart, Craig Knox, An~Chi Guo, Dean Cheng, Savita Shrivastava, Dan
+  Tzur, Bijaya Gautam, and Murtaza Hassanali.
+\newblock Drugbank: a knowledgebase for drugs, drug actions and drug targets.
+\newblock {\em Nucleic acids research}, 36(suppl 1):D901--D906, 2008.
+
+\bibitem{drugbank06}
+David~S Wishart, Craig Knox, An~Chi Guo, Savita Shrivastava, Murtaza Hassanali,
+  Paul Stothard, Zhan Chang, and Jennifer Woolsey.
+\newblock Drugbank: a comprehensive resource for in silico drug discovery and
+  exploration.
+\newblock {\em Nucleic acids research}, 34(suppl 1):D668--D672, 2006.
+
+\bibitem{xu}
+Jun Xu and Arnold Hagler.
+\newblock Chemoinformatics and drug discovery.
+\newblock {\em Molecules}, 7(8):566--600, 2002.
+
+\bibitem{ttd16}
+Hong Yang, Chu Qin, Ying~Hong Li, Lin Tao, Jin Zhou, Chun~Yan Yu, Feng Xu, Zhe
+  Chen, Feng Zhu, and Yu~Zong Chen.
+\newblock Therapeutic target database update 2016: enriched resource for bench
+  to clinical drug target and targeted pathway information.
+\newblock {\em Nucleic Acids Research}, 44(D1):D1069--D1074, 2016.
+
+\bibitem{zhang15}
+Ming Zhang, Heng Luo, Zhengrui Xi, and Ekaterina Rogaeva.
+\newblock Drug repositioning for diabetes based on'omics' data mining.
+\newblock {\em PloS one}, 10(5):e0126082, 2015.
+
+\bibitem{zhang16}
+Ming Zhang, Gerold Schmitt-Ulms, Christine Sato, Zhengrui Xi, Yalun Zhang,
+  Ye~Zhou, Peter St~George-Hyslop, and Ekaterina Rogaeva.
+\newblock Drug repositioning for alzheimer’s disease based on systematic
+  ‘omics’ data mining.
+\newblock {\em PloS one}, 11(12):e0168812, 2016.
+
+\bibitem{hsdn}
+XueZhong Zhou, Jörg Menche, Albert-László Barabási, and Amitabh Sharma.
+\newblock Human symptoms-disease network.
+\newblock {\em Nature Communications}, 5:4212, 2014.
+
+\bibitem{ttd10}
+Feng Zhu, BuCong Han, Pankaj Kumar, XiangHui Liu, XiaoHua Ma, XiaoNa Wei,
+  Lu~Huang, YangFan Guo, LianYi Han, ChanJuan Zheng, and YuZong Chen.
+\newblock Update of ttd: Therapeutic target database.
+\newblock {\em Nucleic Acids Research}, 38(Database issue):D787--D791, 2010.
+
+\bibitem{ttd12}
+Feng Zhu, Zhe Shi, Chu Qin, Lin Tao, Xin Liu, Feng Xu, Li~Zhang, Yang Song,
+  Xianghui Liu, Jingxian Zhang, et~al.
+\newblock Therapeutic target database update 2012: a resource for facilitating
+  target-oriented drug discovery.
+\newblock {\em Nucleic acids research}, page gkr797, 2011.
+
+\end{thebibliography}

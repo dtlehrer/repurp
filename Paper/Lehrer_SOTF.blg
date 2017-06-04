@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Lehrer_SOTF.aux
+The style file: plain.bst
+Database file #1: Lehrer_SOTF.bib
+Warning--entry type for "youtube" isn't style-file defined
+--line 254 of file Lehrer_SOTF.bib
+Warning--entry type for "pubmed" isn't style-file defined
+--line 301 of file Lehrer_SOTF.bib
+Warning--entry type for "oxford" isn't style-file defined
+--line 323 of file Lehrer_SOTF.bib
+Warning--entry type for "uniprot" isn't style-file defined
+--line 344 of file Lehrer_SOTF.bib
+Warning--entry type for "eutilities" isn't style-file defined
+--line 351 of file Lehrer_SOTF.bib
+Warning--entry type for "edirect14" isn't style-file defined
+--line 358 of file Lehrer_SOTF.bib
+Warning--entry type for "edirect17" isn't style-file defined
+--line 365 of file Lehrer_SOTF.bib
+Warning--entry type for "mesh15" isn't style-file defined
+--line 385 of file Lehrer_SOTF.bib
+Warning--entry type for "eutils" isn't style-file defined
+--line 406 of file Lehrer_SOTF.bib
+Warning--entry type for "shell" isn't style-file defined
+--line 433 of file Lehrer_SOTF.bib
+Warning--entry type for "pubmedstats" isn't style-file defined
+--line 496 of file Lehrer_SOTF.bib
+Warning--empty year in elshi
+You've used 47 entries,
+            2118 wiz_defined-function locations,
+            747 strings with 11734 characters,
+and the built_in function-call counts, 17584 in all, are:
+= -- 1593
+> -- 1113
+< -- 4
++ -- 449
+- -- 396
+* -- 1399
+:= -- 2985
+add.period$ -- 128
+call.type$ -- 47
+change.case$ -- 335
+chr.to.int$ -- 0
+cite$ -- 48
+duplicate$ -- 504
+empty$ -- 1238
+format.name$ -- 396
+if$ -- 3563
+int.to.chr$ -- 0
+int.to.str$ -- 47
+missing$ -- 34
+newline$ -- 224
+num.names$ -- 94
+pop$ -- 357
+preamble$ -- 1
+purify$ -- 289
+quote$ -- 0
+skip$ -- 400
+stack$ -- 0
+substring$ -- 1003
+swap$ -- 86
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 186
+warning$ -- 1
+while$ -- 135
+width$ -- 49
+write$ -- 476
+(There were 12 warnings)

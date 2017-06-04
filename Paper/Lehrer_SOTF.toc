@@ -1,0 +1,38 @@
+\contentsline {section}{\numberline {I}Introduction}{2}
+\contentsline {section}{\numberline {II}Pre-Technological Drug Discovery}{2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Early Medicine}{2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Synthetic Drug Products}{2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Standardized Drug Development}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-D}}Drug Repurposing}{3}
+\contentsline {section}{\numberline {III}In Silico Drug Discovery}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Shifting Towards Technology}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Data-Driven Drug Discovery}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Systems-Oriented Drug Repurposing}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}Literature Mining}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}`Omics' Data Mining}{5}
+\contentsline {section}{\numberline {IV}Future Drug Discovery: Automative Trends}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Future Drug Repurposing}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Technological Growth and Biomedical Data Abundance}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Rare Diseases}{6}
+\contentsline {section}{\numberline {V}Automated Drug Repurposing Tools}{7}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Therapeutic Target Database}{7}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}PubMed}{7}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Protein Database}{8}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Entrez Programming Utilities}{8}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-E}}Entrez Direct}{8}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-F}}Human Symptoms-Disease Network}{8}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-G}}Linux Shell Scripts}{9}
+\contentsline {section}{\numberline {VI}A Working Prototype}{9}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Interconnected Shell Scripts}{9}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-B}}User Input}{9}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-C}}Obtaining Disease Data}{9}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-D}}Data Preprocessing}{9}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-E}}Protein Data Extraction}{10}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-F}}Data Integration}{10}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-G}}Weighting Pre-Approved Drugs For Treatment}{10}
+\contentsline {section}{\numberline {VII}Experimental Results}{11}
+\contentsline {section}{\numberline {VIII}Future Work: Automated Opportunities}{11}
+\contentsline {section}{\numberline {IX}Conclusion}{11}
+\contentsline {section}{References}{12}
+\contentsline {section}{Appendix}{13}
+\contentsline {subsection}{\numberline {A}Reflection}{13}

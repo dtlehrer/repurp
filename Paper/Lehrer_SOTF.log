@@ -1,0 +1,534 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2017.3.10)  18 MAY 2017 11:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Lehrer_SOTF.tex
+(./Lehrer_SOTF.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ru
+ssian, ukrainian, bulgarian, loaded.
+(./IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen117
+\WF@size=\dimen118
+\c@WF@wrappedlines=\count91
+\WF@box=\box27
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+\XKV@depth=\count94
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box30
+)
+\tc@llx=\dimen121
+\tc@lly=\dimen122
+\tc@urx=\dimen123
+\tc@ury=\dimen124
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen125
+\adjbox@Height=\dimen126
+\adjbox@Depth=\dimen127
+\adjbox@Totalheight=\dimen128
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box31
+\sift@deathcycles=\count96
+\@vwid@loff=\dimen129
+\@vwid@roff=\dimen130
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2009/11/18 1.3 (PWD)
+\affilsep=\skip44
+\@affilsep=\skip45
+\c@Maxaffil=\count97
+\c@authors=\count98
+\c@affil=\count99
+)
+(./Lehrer_SOTF.aux)
+\openout1 = `Lehrer_SOTF.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen131
+\scratchbox=\box32
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen132
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(./Lehrer_SOTF.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+Underfull \hbox (badness 3735) in paragraph at lines 32--32
+ [][] []\OT1/ptm/m/n/10 Weighting Pre-Approved Drugs For 
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `Lehrer_SOTF.toc'.
+
+ (./Lehrer_SOTF.lof
+Underfull \hbox (badness 2435) in paragraph at lines 2--2
+ [][] []\OT1/ptm/m/n/8 Simplified rep-re-sen-ta-tion of the drug re-pur-pos-ing
+ pro- 
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 4--4
+ [][] []\OT1/ptm/m/n/8 A plot of unique TTD pro-tein tar-gets over time, 
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 4--4
+ \OT1/ptm/m/n/8 in-creas-ing in ev-ery sta-tis-ti-cal re-port from 2002 to 
+ []
+
+[1{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+])
+\tf@lof=\write4
+\openout4 = `Lehrer_SOTF.lof'.
+
+
+(./Lehrer_SOTF.lot
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+
+Underfull \hbox (badness 2591) in paragraph at lines 5--5
+ [][] []\OT1/ptm/m/n/8 Five records from a HSDN dataset map-ping 147,978 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+ \OT1/ptm/m/n/8 symptom-disease re-la-tion-ships to their cor-re-spond-ing 
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 5--5
+ \OT1/ptm/m/n/8 PubMed oc-curence fre-quen-cies and TF-IDF val-ues. As 
+ []
+
+)
+\tf@lot=\write5
+\openout5 = `Lehrer_SOTF.lot'.
+
+ <Fig1.PNG, id=9, 1079.53313pt x 87.32625pt>
+File: Fig1.PNG Graphic file (type png)
+ <use Fig1.PNG>
+Package pdftex.def Info: Fig1.PNG used on input line 56.
+(pdftex.def)             Requested size: 539.76524pt x 43.66301pt.
+ [2]
+Underfull \hbox (badness 1881) in paragraph at lines 66--67
+[]\OT1/ptm/m/it/10 Focused (knowledge-based) screen-ing\OT1/ptm/m/n/10 : only t
+he
+ []
+
+<repurp.PNG, id=17, 372.64218pt x 444.91219pt>
+File: repurp.PNG Graphic file (type png)
+ <use repurp.PNG>
+Package pdftex.def Info: repurp.PNG used on input line 80.
+(pdftex.def)             Requested size: 252.0pt x 300.87302pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <./Fig1.PNG> <./repurp.PNG>]
+<pubmed.PNG, id=27, 539.01375pt x 305.64188pt>
+File: pubmed.PNG Graphic file (type png)
+ <use pubmed.PNG>
+Package pdftex.def Info: pubmed.PNG used on input line 136.
+(pdftex.def)             Requested size: 252.0pt x 142.89616pt.
+ [5 <./pubmed.PNG>] <ttdprot.PNG, id=32, 539.76656pt x 306.39468pt>
+File: ttdprot.PNG Graphic file (type png)
+ <use ttdprot.PNG>
+Package pdftex.def Info: ttdprot.PNG used on input line 149.
+(pdftex.def)             Requested size: 252.0pt x 143.0471pt.
+
+<ttddrug.PNG, id=33, 539.76656pt x 305.64188pt>
+File: ttddrug.PNG Graphic file (type png)
+ <use ttddrug.PNG>
+Package pdftex.def Info: ttddrug.PNG used on input line 155.
+(pdftex.def)             Requested size: 252.0pt x 142.69563pt.
+
+<dbprot.PNG, id=34, 539.76656pt x 304.88907pt>
+File: dbprot.PNG Graphic file (type png)
+ <use dbprot.PNG>
+Package pdftex.def Info: dbprot.PNG used on input line 163.
+(pdftex.def)             Requested size: 252.0pt x 142.34416pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<dbdrug.PNG, id=35, 538.26094pt x 305.64188pt>
+File: dbdrug.PNG Graphic file (type png)
+ <use dbdrug.PNG>
+Package pdftex.def Info: dbdrug.PNG used on input line 169.
+(pdftex.def)             Requested size: 252.0pt x 143.09204pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<rd2.PNG, id=36, 462.22687pt x 89.58469pt>
+File: rd2.PNG Graphic file (type png)
+ <use rd2.PNG>
+Package pdftex.def Info: rd2.PNG used on input line 185.
+(pdftex.def)             Requested size: 252.0pt x 48.83977pt.
+ [6 <./ttdprot.PNG> <./ttddrug.PNG> <./dbprot.PNG> <./dbdrug.PNG> <./rd2.PNG>]
+<ttduniprotall.PNG, id=45, 524.71031pt x 152.06813pt>
+File: ttduniprotall.PNG Graphic file (type png)
+ <use ttduniprotall.PNG>
+Package pdftex.def Info: ttduniprotall.PNG used on input line 202.
+(pdftex.def)             Requested size: 252.0pt x 73.03363pt.
+
+<ttdtargetdisease.PNG, id=46, 633.86812pt x 151.3153pt>
+File: ttdtargetdisease.PNG Graphic file (type png)
+
+<use ttdtargetdisease.PNG>
+Package pdftex.def Info: ttdtargetdisease.PNG used on input line 211.
+(pdftex.def)             Requested size: 252.0pt x 60.15562pt.
+
+<ttddrugdisease.PNG, id=47, 624.08156pt x 157.33781pt>
+File: ttddrugdisease.PNG Graphic file (type png)
+
+<use ttddrugdisease.PNG>
+Package pdftex.def Info: ttddrugdisease.PNG used on input line 219.
+(pdftex.def)             Requested size: 252.0pt x 63.5318pt.
+ [7 <./ttduniprotall.PNG> <./ttdtargetdisease.PNG> <./ttddrugdisease.PNG>]
+Underfull \hbox (badness 7030) in paragraph at lines 233--234
+[]\OT1/ptm/b/n/10 Utility name: \OT1/ptm/m/n/10 The name of one of nine E-
+ []
+
+
+Overfull \hbox (1.26811pt too wide) in paragraph at lines 241--242
+[]\OT1/ptm/m/it/10 db=pubmed&term=nature[journal]+AND+3D+printing 
+ []
+
+<hsdnsymptdis.PNG, id=55, 576.65437pt x 139.27031pt>
+File: hsdnsymptdis.PNG Graphic file (type png)
+ <use hsdnsymptdis.PNG>
+Package pdftex.def Info: hsdnsymptdis.PNG used on input line 261.
+(pdftex.def)             Requested size: 252.0pt x 60.8626pt.
+
+[8 <./hsdnsymptdis.PNG>] <hsdndisdis.PNG, id=60, 514.17094pt x 138.5175pt>
+File: hsdndisdis.PNG Graphic file (type png)
+
+<use hsdndisdis.PNG>
+Package pdftex.def Info: hsdndisdis.PNG used on input line 285.
+(pdftex.def)             Requested size: 252.0pt x 67.88895pt.
+ <newscript.PNG, id=61, 645.16031pt x 423.08063pt>
+File: newscript.PNG Graphic file (type png)
+
+<use newscript.PNG>
+Package pdftex.def Info: newscript.PNG used on input line 307.
+(pdftex.def)             Requested size: 252.0pt x 165.25255pt.
+ [9 <./hsdndisdis.PNG> <./newscript.PNG>]
+<prototypestructure.PNG, id=72, 708.39656pt x 198.7425pt>
+File: prototypestructure.PNG Graphic file (type png)
+
+<use prototypestructure.PNG>
+Package pdftex.def Info: prototypestructure.PNG used on input line 329.
+(pdftex.def)             Requested size: 252.0pt x 70.69812pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./prototypestructure.PNG>]
+<weightsfig.PNG, id=77, 471.26062pt x 280.79906pt>
+File: weightsfig.PNG Graphic file (type png)
+ <use weightsfig.PNG>
+Package pdftex.def Info: weightsfig.PNG used on input line 369.
+(pdftex.def)             Requested size: 252.0pt x 150.1553pt.
+
+<autorepurp.PNG, id=78, 706.13812pt x 121.20282pt>
+File: autorepurp.PNG Graphic file (type png)
+ <use autorepurp.PNG>
+Package pdftex.def Info: autorepurp.PNG used on input line 380.
+(pdftex.def)             Requested size: 252.0pt x 43.25385pt.
+
+[11 <./weightsfig.PNG> <./autorepurp.PNG>] (./Lehrer_SOTF.bbl
+Underfull \hbox (badness 1354) in paragraph at lines 94--98
+[]\OT1/ptm/m/n/8 Peter Hecht.  High-throughput screen-ing: beat-ing the odds wi
+th
+ []
+
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ® in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ® in font ptmr7t!
+[12]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ˜ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+
+Underfull \hbox (badness 1490) in paragraph at lines 246--249
+[]\OT1/ptm/m/n/8 XueZhong Zhou, Jrg Menche, Albert-Lszl Barabsi, and Amitabh
+ []
+
+) [13] (./Lehrer_SOTF.aux) ) 
+Here is how much of TeX's memory you used:
+ 3296 strings out of 494820
+ 50965 string characters out of 3178049
+ 118112 words of memory out of 3000000
+ 6402 multiletter control sequences out of 15000+200000
+ 40982 words of font info for 74 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 38i,8n,35p,1378b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Lehrer_SOTF.pdf (13 pages, 761513 bytes).
+PDF statistics:
+ 131 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+
