@@ -12,6 +12,21 @@ Drug project and protein target information was downloaded from the [TTD data do
 ![TTD Downloaded Files](https://cloud.githubusercontent.com/assets/19999194/26797053/3a4b79be-49f1-11e7-8a77-680d9b488521.PNG)
 
 Highlighted links indicate downloaded text files.  These files were opened within Microsoft Excel, preprocessed, and joined based on shared attributes to create a [CSV file](./input/TTDdata7.csv) accessed within the repurposing prototype.
+#### The Merged Dataset ([TTDData7.csv](./input/TTDdata7.csv))
+The resulting cumulation of TTD data is found in one of the main, internally-saved datasets accessed within the repurposing prototype.  This joined dataset consists of 3,389 records, each containing 10 attributes/fields, which are outlined below:
+* Uniprot ID: a universal protein identifier
+* TTDTargetID: a drug target identifier specific to the TTD
+* Target_Name: the name of the protein target (protein targeted/bound by a drug project)
+* Target Indication: the disease a protein target has been acted upon to treat
+* ICD9: International Statistical Classification of Diseases and Related Health Problems, 9th revision.  This is an international disease identification code.
+* ICD10: more international disease identification codes (10th revision) 
+* Target Type: a protein target's development stage (successful, clinical trial, research, etc.)
+* TTDDRUGIDs: one or more drugs that act on the corresponding protein target
+* LNMs: one or more drug names (corresponding to TTDDRUGIDs order)
+* Indications: a list of the specific disease each drug project attempts to treat (corresponding to TTDDRUGIDs order)
+
+
+
 ### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
 133,106 symptom similarity scores between 1,596 distinct diseases were downloaded from a [2014 study](https://www.nature.com/articles/ncomms5212) dataset ([Supplementary Data 4](https://www.nature.com/article-assets/npg/ncomms/2014/140626/ncomms5212/extref/ncomms5212-s5.txt)).  This dataset was converted to a [CSV file](./input/DiseaseSimilarities.csv), and it is used to generate one of the drug weights implemented in ranking drug suggestions within the repurposing prototype. 
 ## Getting Started
