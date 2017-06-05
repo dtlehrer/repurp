@@ -5,6 +5,11 @@ This project is the result of summer research and coursework at the College of S
 2. uses interconnected biomedical data to suggest top drugs for repurposing
 3. produces comparable results to [manual drug repurposing studies](./KeyResources/Zhang_OmicsDataMining) 
 4. reduces drug discovery costs
+## Biomedical Data
+### Therapeutic Target Database (TTD)
+Drug project and protein target information was downloaded from the [TTD data download page](http://bidd.nus.edu.sg/BIDD-Databases/TTD/TTD_Download.asp)
+![TTD Downloaded Files](https://cloud.githubusercontent.com/assets/19999194/26797053/3a4b79be-49f1-11e7-8a77-680d9b488521.PNG)
+The above image shows the TTD data download page.  Highlighted links indicate text files that were downloaded.  These files were opened within Microsoft Excel, preprocessed, and joined based on shared attributes to create a [CSV file](./input/TTDdata7.csv) accessed within the repurposing prototype.
 ## Getting Started
 
 ## Academic Work
