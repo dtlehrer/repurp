@@ -25,7 +25,7 @@ The resulting cumulation of TTD data is found in one of the main, internally-sav
 * **LNMs:** one or more drug names (corresponding to TTDDRUGIDs order)
 * **Indications:** a list of the specific disease each drug project attempts to treat (corresponding to TTDDRUGIDs order)
 
-Record fields may be identical in several locations, but combining TTDTargetID and Target Indication should create a composite primary key for the dataset.
+Record fields may be identical in several locations, but the combination of *TTDTargetID* and *Target Indication* should create a composite primary key for the dataset.
 ### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
 133,106 symptom similarity scores between 1,596 distinct diseases were downloaded from a [2014 study](https://www.nature.com/articles/ncomms5212) dataset ([Supplementary Data 4](https://www.nature.com/article-assets/npg/ncomms/2014/140626/ncomms5212/extref/ncomms5212-s5.txt)).  This dataset was converted to a [CSV file](./input/DiseaseSimilarities.csv), and it is used to generate one of the drug weights implemented in ranking drug suggestions within the repurposing prototype. 
 
