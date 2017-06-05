@@ -1,17 +1,25 @@
 package repurp;
 
-import java.io.*;
-import java.util.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
 import repurp.org.apache.commons.exec.CommandLine;
 import repurp.org.apache.commons.exec.DefaultExecutor;
 
 public class Repurp {
-  Scanner sc;
-  Scanner scprot;
-  Scanner scsympt;
-  Scanner scgene;
-  PrintWriter pw;
-  String line;
+	Scanner sc;
+	Scanner scprot;
+	Scanner scsympt;
+	Scanner scgene;
+	PrintWriter pw;
+	String line;
   int count = 0;
   
   String uniprotId;
@@ -27,7 +35,7 @@ public class Repurp {
   ArrayList<ArrayList<String>> uIdRecord = new ArrayList<ArrayList<String>>();
   
   public Repurp(Scanner sc, Scanner scprot, Scanner scsympt, PrintWriter pw){
-    this.sc = sc;
+		this.sc = sc;
     this.scprot = scprot;
     this.scsympt = scsympt;
     this.pw = pw;
@@ -61,6 +69,19 @@ public class Repurp {
     return (double) Variables.queryCount/weightDisOnly;
   }
   
+	public static double entrezQuery2(String protein, double weightDisOnly) {
+		String line = "esearch -db pubmed -query \"" + Variables.originalDisease + " AND " + protein + "\"";
+		CommandLine commandLine = CommandLine.parse(line);
+		DefaultExecutor executor = new DefaultExecutor();
+		executor.setExitValue(1);
+		executor.setWorkingDirectory(new File("../edirect"));
+		try {
+			executor.execute(commandLine);
+		} catch (Exception e) {
+		}
+		return (double) Variables.queryCount / weightDisOnly;
+	}
+
   public static double getSymScore(String otherDisease, ArrayList<ArrayList<String>> sRecords){
     if (otherDisease.equals("na")){
       System.out.println("..");
@@ -89,21 +110,7 @@ public class Repurp {
       }
     }
     return symScore;
-  }
-  
-  public static double entrezQuery2(String protein, double weightDisOnly){
-    String line = "esearch -db pubmed -query \"" + Variables.originalDisease + " AND " + protein + "\"";
-    CommandLine commandLine = CommandLine.parse(line);
-    DefaultExecutor executor = new DefaultExecutor();
-    executor.setExitValue(1);
-    executor.setWorkingDirectory(new File("../edirect"));
-    try{
-      executor.execute(commandLine);
-    }
-    catch (Exception e){
-    }
-    return (double) Variables.queryCount/weightDisOnly;
-  }
+  }  
   
   public void run() throws IOException {
     double disOnlyWeight = entrezQueryDiseaseOnly();
@@ -116,7 +123,7 @@ public class Repurp {
       ArrayList<String> ttdDrugIds = new ArrayList<String>();
       ArrayList<String> drugLNMs = new ArrayList<String>();
       ArrayList<String> ttdIndications = new ArrayList<String>();
-      //skip first line with headers
+			// skip first data line (headers)
       line=sc.nextLine();
       uniprotId="";
       ttdTargInd="";
@@ -128,6 +135,7 @@ public class Repurp {
       ttdIndication="";
       for(int i=0; i<line.length();i++){
         //get uIDs
+				// getUniprotIDs(line, i, uniprotId, uIds);
         if (line.charAt(i)!=',' && line.charAt(i)!=';' && line.charAt(i)!=' ') {
           uniprotId += line.charAt(i);
         }
