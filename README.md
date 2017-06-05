@@ -13,7 +13,7 @@ Drug project and protein target information was downloaded from the [TTD data do
 
 Highlighted links indicate downloaded text files.  These files were opened within Microsoft Excel, preprocessed, and joined based on shared attributes to create a [CSV file](./input/TTDdata7.csv) accessed within the repurposing prototype.
 ### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
-
+133,106 symptom similarity scores between 1,596 distinct diseases were downloaded in a [2014 study](https://www.nature.com/articles/ncomms5212) dataset ([Supplementary Data 4](https://www.nature.com/article-assets/npg/ncomms/2014/140626/ncomms5212/extref/ncomms5212-s5.txt)).  This dataset was re-formatted to a [CSV file](./input/DiseaseSimilarities.csv); it is used to generate one of the drug weights implemented in ranking drug suggestions within the repurposing prototype. 
 ## Getting Started
 
 ## Academic Work
