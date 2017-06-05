@@ -1,2 +1,4 @@
 # Automated Drug Repurposing: Evolving Drug Discovery via Faster Biomedical Data Extraction
-### A research paper written for course work at the College of Saint Benedict/Saint John's University in May 2017f
+## Dylan Lehrer, May 2017
+### A research paper written for course work at the College of Saint Benedict/Saint John's University
+A PDF version of the paper is avaiable at [Lehrer_SOTF.pdf](../Lehrer_SOTF.pdf)
