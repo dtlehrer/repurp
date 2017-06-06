@@ -21,7 +21,7 @@ The resulting cumulation of TTD data is found in one of the main, internally-sav
 * **ICD9:** International Statistical Classification of Diseases and Related Health Problems, 9th revision.  This is an international disease identification code.
 * **ICD10:** more international disease identification codes (10th revision) 
 * **Target Type:** a protein target's development stage (successful, clinical trial, research, etc.)
-* **TTDDRUGIDs:** one or more drugs that act on the corresponding protein target
+* **TTDDRUGIDs:** TTTD-specific IDs for one or more drugs that act on the corresponding protein target
 * **LNMs:** one or more drug names (corresponding to TTDDRUGIDs order)
 * **Indications:** a list of the specific disease each drug project attempts to treat (corresponding to TTDDRUGIDs order)
 
