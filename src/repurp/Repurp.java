@@ -37,13 +37,28 @@ public class Repurp {
 	 * the name of a protein target (protein targeted/bound by a drug project)
 	 */
 	String ttdTargName;
-	
+	/** the disease a protein target has been acted upon to treat */
 	String ttdTargInd;
+	/** an international disease identification code, 9th revision */
 	String icd9;
+	/** international disease identification code, 10th revision */
 	String icd10;
+	/**
+	 * the protein target's development stage (successful, clinical trial,
+	 * research, etc.)
+	 */
 	String targType;
+	/**
+	 * TTD-specific IDs for one or more drugs that act on the corresponding
+	 * protein target
+	 */
 	String ttdDrugId;
+	/** one or more drug names (corresponding to TTDDRUGIDs order) */
 	String drugLNM;
+	/**
+	 * a list of the specific disease each drug project attempts to treat
+	 * (corresponding to TTDDRUGIDs order)
+	 */
 	String ttdIndication;
 	ArrayList<ArrayList<ArrayList<String>>> uIdRecordList = new ArrayList<ArrayList<ArrayList<String>>>();
 	ArrayList<ArrayList<String>> uIdRecord = new ArrayList<ArrayList<String>>();
