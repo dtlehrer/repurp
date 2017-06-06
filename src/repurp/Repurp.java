@@ -14,16 +14,30 @@ import repurp.org.apache.commons.exec.CommandLine;
 import repurp.org.apache.commons.exec.DefaultExecutor;
 
 public class Repurp {
+	/** A Scanner for the TTD data text file */
 	Scanner sc;
+	/** A Scanner for the disease-related proteins text file */
 	Scanner scprot;
+	/**
+	 * A Scanner for the Human Symptoms-Disease Network (HSDN) text file linking
+	 * disease pairs to symptom similarity scores
+	 */
 	Scanner scsympt;
-	Scanner scgene;
+	/**
+	 * A PrintWriter for the results output file for drug suggestions and their
+	 * corresponding weights
+	 */
 	PrintWriter pw;
 	String line;
-	int count = 0;
+	int count = 0; // REMOVE?
 
+	/** a universal protein identifier */
 	String uniprotId;
+	/**
+	 * the name of a protein target (protein targeted/bound by a drug project)
+	 */
 	String ttdTargName;
+	
 	String ttdTargInd;
 	String icd9;
 	String icd10;
@@ -173,8 +187,6 @@ public class Repurp {
 										.toLowerCase()) < new Integer(r.get(1).toLowerCase().length()).doubleValue()
 												/ 4.0) {
 					symScore = Double.parseDouble(r.get(2));
-					// HERE to check symptoms
-					// System.out.println(symScore);
 					return symScore;
 				}
 			} else if (org.apache.commons.lang3.StringUtils
@@ -188,8 +200,6 @@ public class Repurp {
 										.toLowerCase()) < new Integer(r.get(1).toLowerCase().length()).doubleValue()
 												/ 4.0) {
 					symScore = Double.parseDouble(r.get(2));
-					// HERE to check symptoms
-					// System.out.println(symScore);
 					return symScore;
 				}
 			}
