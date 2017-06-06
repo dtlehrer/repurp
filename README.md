@@ -23,7 +23,7 @@ The resulting cumulation of TTD data is found in one of the main, internally-sav
 * **Target Type:** a protein target's development stage (successful, clinical trial, research, etc.)
 * **TTDDRUGIDs:** TTTD-specific IDs for one or more drugs that act on the corresponding protein target
 * **LNMs:** one or more drug names (corresponding to TTDDRUGIDs order)
-* **Indications:** a list of the specific disease each drug project attempts to treat (corresponding to TTDDRUGIDs order)
+* **Indications:** a list with the specific disease each drug project attempts to treat (corresponding to TTDDRUGIDs order)
 
 Record fields may be identical in several locations, but the combination of *TTDTargetID* and *Target Indication* should create a composite primary key for the dataset.
 ### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
