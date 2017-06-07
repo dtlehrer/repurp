@@ -35,6 +35,13 @@ Record fields may be identical in several locations, but the combination of *TTD
 #### Entrez Programming Utilities (E-utilities) and Entrez Direct (EDirect)
 [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25497/), the NCBI Entrez system's public API, provide access to all Entrez Databases and a stuctured data retrieval mechanism employed by [EDirect](./KeyResources/Entrez_Direct/), a NCBI-provided downloadable package of executables that allow the E-utilities to be called directly from a UNIX command line.  We can use EDirect command line queries in our program to extract a wide range of highly-customized information from databases like PubMed, Protein, and Gene.  See [repurp/KeyResources/Entrez_Direct/](./KeyResources/Entrez_Direct/) or our [paper](./Paper/Lehrer_SOTF.pdf) for more information related to the E-utilities and EDirect.
 ## Getting Started
+This project was built and tested on a Linux machine.  For optimized performance, it is currently recommended that you run the scripts on a comparable setup.  TTD and HSDN datasets are already downloaded and pre-processed, and EDirect tools have been installed to a [local package](./src/edirect/), so you should be able to download and run this repository's collection of files on your own machine.  The following steps provide one possible way to work towards customized repurposing on your own machine:
+1. download this repository's ZIP file
+![Download ZIP](https://user-images.githubusercontent.com/19999194/26889229-16749f92-4b73-11e7-9eb6-e61d2f1eaa08.png)
+2. extract all files to your own machine's home directory
+3. open a terminal window
+4. navigate to ~/repurp-master/ (cd ~/repurp-master)
+5. 
 
 ## Related Work
 [Paper](./Paper/Lehrer_SOTF.pdf)
