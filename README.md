@@ -44,7 +44,7 @@ This project was built and tested on a Linux machine.  For optimized performance
 5. execute one of the scripts by entering its file name in the command line (ex. enter "repurp" or "./repurp" in the command line to run the generalized script, "repurpDiabetes" for the diabetes-specific program, or "repurpAD" for Alzheimer's disease)
 6. when prompted by the terminal, provide a disease name as input
 
-After completion, program output should be visible in your [repurp-master/output/](./output) directory.  Disease-related [genes](./output/genes), [proteins](./output/proteins), and [weighted drug suggestions](./output/drugWeights) can be found for most input diseases that are provided to the repurp shell script. 
+After completion, program output should be visible in your [repurp-master/output/](./output) directory.  Disease-related [genes](./output/genes), [proteins](./output/proteins), and [weighted drug suggestions](./output/drugWeights) can be obtained for most input diseases provided to the repurp shell script. 
 
 ## Related Work
 [Paper](./Paper/Lehrer_SOTF.pdf)
