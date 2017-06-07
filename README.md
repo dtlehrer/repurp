@@ -31,8 +31,9 @@ Record fields may be identical in several locations, but the combination of *TTD
 #### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
 133,106 symptom similarity scores between 1,596 distinct diseases were downloaded from a [2014 study](https://www.nature.com/articles/ncomms5212) dataset ([Supplementary Data 4](https://www.nature.com/article-assets/npg/ncomms/2014/140626/ncomms5212/extref/ncomms5212-s5.txt)).  This dataset was converted to a [CSV file](./input/DiseaseSimilarities.csv), and it is used to generate one of the drug weights implemented in ranking drug suggestions within the repurposing prototype. 
 ### Other Biomedical Data Sources (National Center for Biotechnology Information (NCBI) & Entrez Databases)
-NCBI's Entrez Databases (PubMed, Protein, Gene, etc.) provide a quickly growing amount of biomedical data.  These databases are much larger—and change more rapidly—than sources like TTD and HSDN, so it is more vital to avoid saving extract live information from them and avoid saving local database copies.
+[NCBI's Entrez Databases](https://www.ncbi.nlm.nih.gov/books/NBK3837/#_EntrezHelp_The_Entrez_Databases_) (PubMed, Protein, Gene, etc.) provide a quickly growing amount of biomedical data.  These databases are much larger—and change more rapidly—than sources like TTD and HSDN, so it is more vital to avoid saving extract live information from them and avoid saving local database copies.  
 #### Entrez Programming Utilities (E-utilities) and Entrez Direct (EDirect)
+[E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25497/), the public API to the NCBI Entrez system, provide access to all Entrez Databases and a stuctured data retrieval mechanism employed by [EDirect](./KeyResources/Entrez_Direct), a NCBI-provided downloadable package of executables that allow the E-utilities to be called directly from a UNIX command line.  We can use EDirect command line queries in our program to extract a wide range of highly-customized information from databases like PubMed, Protein, and Gene.
 ## Getting Started
 
 ## Related Work
