@@ -14,7 +14,7 @@ Drug project and protein target information was downloaded from the [TTD data do
 ![TTD Downloaded Files](https://cloud.githubusercontent.com/assets/19999194/26797053/3a4b79be-49f1-11e7-8a77-680d9b488521.PNG)
 
 Highlighted links indicate downloaded text files.  These files were opened within Microsoft Excel, preprocessed, and joined based on shared attributes to create a [CSV file](./input/TTDdata7.csv) accessed within the repurposing prototype.
-#### The Merged Dataset ([TTDData7.csv](./input/TTDdata7.csv))
+##### The Merged Dataset ([TTDData7.csv](./input/TTDdata7.csv))
 The resulting cumulation of TTD data is found in one of the main, internally-saved datasets accessed within the repurposing prototype.  This joined dataset consists of 3,389 records, each containing 10 attributes/fields, which are outlined below:
 * **Uniprot ID:** a universal protein identifier
 * **TTDTargetID:** a drug target identifier specific to the TTD
