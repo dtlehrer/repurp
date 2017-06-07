@@ -29,10 +29,15 @@ public class Repurp {
 	 */
 	PrintWriter pw;
 	String line;
-	int count = 0; // REMOVE?
-
+	// a program progress tracker
+	int count = 0;
 	/** a universal protein identifier */
 	String uniprotId;
+	/**
+	 * a drug target identifier specific to the Therapeutic Target Database
+	 * (TTD)
+	 */
+	String ttdTargId;
 	/**
 	 * the name of a protein target (protein targeted/bound by a drug project)
 	 */
@@ -224,7 +229,8 @@ public class Repurp {
 
 	public void run() throws IOException {
 		double disOnlyWeight = entrezQueryDiseaseOnly();
-		while (sc.hasNextLine()) {
+		while (sc.hasNextLine()) { // while there are still TTDdata7.csv records
+									// to be parsed
 			ArrayList<String> uIds = new ArrayList<String>();
 			ArrayList<String> ttdTargInds = new ArrayList<String>();
 			ArrayList<String> icd9List = new ArrayList<String>();
@@ -234,8 +240,10 @@ public class Repurp {
 			ArrayList<String> drugLNMs = new ArrayList<String>();
 			ArrayList<String> ttdIndications = new ArrayList<String>();
 			// skip first data line (headers)
+			// each "line" is a record from TTDData7.csv
 			line = sc.nextLine();
 			uniprotId = "";
+			ttdTargId = "";
 			ttdTargInd = "";
 			icd9 = "";
 			icd10 = "";
@@ -243,6 +251,8 @@ public class Repurp {
 			ttdDrugId = "";
 			drugLNM = "";
 			ttdIndication = "";
+			// PARSE THE TTD DATA CSV FILE, IDENTIFYING AND STORING ALL FIELDS
+			// FOR EACH RECORD
 			for (int i = 0; i < line.length(); i++) {
 				// get uIDs
 				// getUniprotIDs(line, i, uniprotId, uIds);
@@ -256,7 +266,7 @@ public class Repurp {
 					uIds.add(uniprotId);
 					// end of uniprot id(s)
 					i++;
-					String ttdTargId = "";
+					ttdTargId = "";
 					while (i < line.length()) {
 						if (line.charAt(i) != ',') {
 							ttdTargId += line.charAt(i);
@@ -400,21 +410,25 @@ public class Repurp {
 							break;
 						}
 					}
+					// individual fields are added to a record object,
+					// uIdRecord, of length=10, see below for record
+					// details/indexes
 					uIdRecord = new ArrayList<ArrayList<String>>();
-					uIdRecord.add(uIds);
+					uIdRecord.add(uIds); // 0
 					ArrayList<String> ttdTargIdList = new ArrayList<String>();
 					ttdTargIdList.add(ttdTargId);
-					uIdRecord.add(ttdTargIdList);
+					uIdRecord.add(ttdTargIdList); // 1
 					ArrayList<String> ttdTargNameList = new ArrayList<String>();
 					ttdTargNameList.add(ttdTargName);
-					uIdRecord.add(ttdTargNameList);
-					uIdRecord.add(ttdTargInds);
-					uIdRecord.add(icd9List);
-					uIdRecord.add(icd10List);
-					uIdRecord.add(targTypeList);
-					uIdRecord.add(ttdDrugIds);
-					uIdRecord.add(drugLNMs);
-					uIdRecord.add(ttdIndications);
+					uIdRecord.add(ttdTargNameList); // 2
+					uIdRecord.add(ttdTargInds); // 3
+					uIdRecord.add(icd9List); // 4
+					uIdRecord.add(icd10List); // 5
+					uIdRecord.add(targTypeList); // 6
+					uIdRecord.add(ttdDrugIds); // 7
+					uIdRecord.add(drugLNMs); // 8
+					uIdRecord.add(ttdIndications); // 9
+					// all records are stored in a list
 					uIdRecordList.add(uIdRecord);
 					break;
 				}
@@ -422,9 +436,17 @@ public class Repurp {
 			count++;
 		}
 		uniprotId = "";
+		// all disease-related proteins are stored in a set, protList
 		Set<String> protList = new HashSet<String>();
+		// TTDdata7.csv records with uniprot IDs matching disease-related
+		// proteins are deemed "viable records" and stored in viableRecordList
+		// for further accession
 		ArrayList<ArrayList<ArrayList<String>>> viableRecordList = new ArrayList<ArrayList<ArrayList<String>>>();
+		// drugs targeting disease-related proteins (those in viableRecordList)
+		// are stored in potentialDrugList
 		ArrayList<ArrayList<String>> potentialDrugList = new ArrayList<ArrayList<String>>();
+		// indications (diseases drugs attempt to treat) are stored in
+		// otherDiseaseList, in corresponding order to potentialDrugList
 		ArrayList<ArrayList<String>> otherDiseaseList = new ArrayList<ArrayList<String>>();
 		while (scprot.hasNextLine()) {
 			line = scprot.nextLine();
@@ -438,10 +460,16 @@ public class Repurp {
 				}
 			}
 		}
+		// the name of a disease
 		String dis1 = "";
+		// a list of all the records in DiseasesSimilarities.csv, a symptom
+		// similarity score data file
 		ArrayList<ArrayList<String>> symptomRecords = new ArrayList<ArrayList<String>>();
 		while (scsympt.hasNextLine()) {
 			line = scsympt.nextLine();
+			// a single record from the DiseaseSimilarities.csv file, where
+			// diseases are the first two fields, and a symptom similarity score
+			// for the pair of diseases is the last field
 			ArrayList<String> record = new ArrayList<String>();
 			for (int i = 0; i < line.length(); i++) {
 				if (line.charAt(i) != ',' && (i < line.length() - 1)) {
@@ -456,6 +484,9 @@ public class Repurp {
 				}
 			}
 		}
+		// a map that links protein names to another map, linking drugs to their
+		// respective indications (one protein can be targeted by one or more
+		// drugs, and each drug is linked to an indication)
 		Map<String, HashMap<String, String>> protsToDrugsAndIndications = new HashMap<String, HashMap<String, String>>();
 		for (String prot : protList) {
 			for (int i = 1; i < uIdRecordList.size(); i++) {
@@ -499,11 +530,9 @@ public class Repurp {
 		Map<String, Double> comboWeights = new HashMap<String, Double>();
 		Map<String, Double> sympWeights = new HashMap<String, Double>();
 		Map<String, Double> indicationToCount = new HashMap<String, Double>();
-		int n = 0;
 		for (ArrayList<ArrayList<String>> record : viableRecordList) {
 			for (String protTarg : record.get(0)) {
 				if (!protWeights.containsKey(protTarg)) {
-					System.out.println(n++);
 					protWeights.put(protTarg, entrezProtQuery(record.get(2).get(0), disOnlyWeight));
 				}
 				for (int i = 0; i < record.get(8).size(); i++) {
@@ -514,8 +543,7 @@ public class Repurp {
 					} else if (record.get(9).size() > 0) {
 						ind = record.get(9).get(i);
 					} else {
-						ind = "na"; // ????
-						System.out.println("na " + drug);
+						ind = "na"; // offset
 					}
 					if (!indicationToCount.containsKey(ind)) {
 						indicationToCount.put(ind, entrezIndQuery(ind, disOnlyWeight));
@@ -559,6 +587,8 @@ public class Repurp {
 			Set<String> drugs = protsToDrugsAndIndications.get(prt).keySet();
 			for (String drug : drugs) {
 				if (!drugSet.contains(drug)) {
+					// print drugs, their 3 weights in CSV format, and the
+					// drug's indication in CSV format to an output file
 					pw.println(drug + "," + comboWeights.get(drug) + "," + protWeights.get(prt) + ","
 							+ sympWeights.get(drug) + "," + prt + "," + protsToDrugsAndIndications.get(prt).get(drug));
 					drugSet.add(drug);
