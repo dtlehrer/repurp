@@ -30,8 +30,9 @@ The resulting cumulation of TTD data is found in one of the main, internally-sav
 Record fields may be identical in several locations, but the combination of *TTDTargetID* and *Target Indication* should create a composite primary key for the dataset.
 #### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
 133,106 symptom similarity scores between 1,596 distinct diseases were downloaded from a [2014 study](https://www.nature.com/articles/ncomms5212) dataset ([Supplementary Data 4](https://www.nature.com/article-assets/npg/ncomms/2014/140626/ncomms5212/extref/ncomms5212-s5.txt)).  This dataset was converted to a [CSV file](./input/DiseaseSimilarities.csv), and it is used to generate one of the drug weights implemented in ranking drug suggestions within the repurposing prototype. 
-### Other Biomedical Data Sources (PubMed, Protein, Gene)
-### Entrez Programming Utilities (E-utilities) and Entrez Direct (EDirect)
+### Other Biomedical Data Sources (National Center for Biotechnology Information (NCBI) & Entrez Databases)
+NCBI's Entrez Databases (PubMed, Protein, Gene, etc.) provide a quickly growing amount of biomedical data.  These databases are much larger—and change more rapidly—than sources like TTD and HSDN, so it is more vital to avoid saving extract live information from them and avoid saving local database copies.
+#### Entrez Programming Utilities (E-utilities) and Entrez Direct (EDirect)
 ## Getting Started
 
 ## Related Work
