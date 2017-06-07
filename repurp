@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p bin
 echo -e "Please enter a disease name: " 
 read name
 echo "Searching for ${name}..."

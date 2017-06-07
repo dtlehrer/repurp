@@ -29,8 +29,6 @@ public class Repurp {
 	 */
 	PrintWriter pw;
 	String line;
-	// a program progress tracker
-	int count = 0;
 	/** a universal protein identifier */
 	String uniprotId;
 	/**
@@ -433,7 +431,6 @@ public class Repurp {
 					break;
 				}
 			}
-			count++;
 		}
 		uniprotId = "";
 		// all disease-related proteins are stored in a set, protList
@@ -530,9 +527,12 @@ public class Repurp {
 		Map<String, Double> comboWeights = new HashMap<String, Double>();
 		Map<String, Double> sympWeights = new HashMap<String, Double>();
 		Map<String, Double> indicationToCount = new HashMap<String, Double>();
+		// a program progress tracker
+		int count = 0;
 		for (ArrayList<ArrayList<String>> record : viableRecordList) {
 			for (String protTarg : record.get(0)) {
 				if (!protWeights.containsKey(protTarg)) {
+					System.out.println(count++);
 					protWeights.put(protTarg, entrezProtQuery(record.get(2).get(0), disOnlyWeight));
 				}
 				for (int i = 0; i < record.get(8).size(); i++) {
