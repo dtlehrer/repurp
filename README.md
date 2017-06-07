@@ -5,8 +5,9 @@ This project is the result of summer research and coursework at the College of S
 2. uses interconnected biomedical data to suggest top drugs for repurposing
 3. produces comparable results to [manual drug repurposing studies](./KeyResources/Zhang_OmicsDataMining) 
 4. reduces drug discovery costs
-## Downloaded Biomedical Data
-### Therapeutic Target Database (TTD) Datasets
+## Biomedical Data
+### Downloaded Biomedical Data
+#### Therapeutic Target Database (TTD) Datasets
 Drug project and protein target information was downloaded from the [TTD data download page](http://bidd.nus.edu.sg/BIDD-Databases/TTD/TTD_Download.asp), as seen in the image below:
 
 ![TTD Downloaded Files](https://cloud.githubusercontent.com/assets/19999194/26797053/3a4b79be-49f1-11e7-8a77-680d9b488521.PNG)
@@ -26,12 +27,13 @@ The resulting cumulation of TTD data is found in one of the main, internally-sav
 * **Indications:** a list with the specific disease each drug project attempts to treat (corresponding to TTDDRUGIDs order)
 
 Record fields may be identical in several locations, but the combination of *TTDTargetID* and *Target Indication* should create a composite primary key for the dataset.
-### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
+#### Human Symptoms-Disease Network (HSDN) Symptom Similarity Scores
 133,106 symptom similarity scores between 1,596 distinct diseases were downloaded from a [2014 study](https://www.nature.com/articles/ncomms5212) dataset ([Supplementary Data 4](https://www.nature.com/article-assets/npg/ncomms/2014/140626/ncomms5212/extref/ncomms5212-s5.txt)).  This dataset was converted to a [CSV file](./input/DiseaseSimilarities.csv), and it is used to generate one of the drug weights implemented in ranking drug suggestions within the repurposing prototype. 
-
+### Other Biomedical Data Sources (PubMed, Protein, Gene)
+### Entrez Programming Utilities (E-utilities) and Entrez Direct (EDirect)
 ## Getting Started
 
-## Academic Work
+## Related Work
 [Paper](Paper/Lehrer_SOTF.pdf)
 
 [Presentation](https://docs.google.com/presentation/d/1cVauG0fB8b0WDdLQA0-m_aDHLD72X3S9NsO3HkGydaQ/edit?usp=sharing)
