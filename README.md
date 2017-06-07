@@ -7,6 +7,7 @@ This project is the result of summer research and coursework at the College of S
 4. reduces drug discovery costs
 ## Biomedical Data
 ### Downloaded Biomedical Data
+In the current prototype version, [Therapeutic Target Database (TTD)](./input/TTDdata7.csv) and [Human Symptoms-Disease Network (HSDN)](./input/DiseaseSimilarities.csv) datasets have been manually downloaded and pre-processed before program execution for simplicity (avoiding web scraping and keeping program run time quicker).  However, pre-processing this data could become cumbersome with database updates, so a modified program implementing total automation may require live data extraction from these sources.   
 #### Therapeutic Target Database (TTD) Datasets
 Drug project and protein target information was downloaded from the [TTD data download page](http://bidd.nus.edu.sg/BIDD-Databases/TTD/TTD_Download.asp), as seen in the image below:
 
